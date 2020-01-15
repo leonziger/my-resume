@@ -1,0 +1,16 @@
+.main-header {
+  display: flex;
+  padding-top: 45px;
+  padding-bottom: 23px;
+  transition: $delay;
+
+  @media(max-width: 600px) {
+    min-height: 60px;
+  }
+
+  &_sticky {
+    background: darken(#00bff3, 5%);
+    min-height: 60px;
+  }
+
+}
